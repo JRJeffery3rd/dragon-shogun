@@ -1,332 +1,661 @@
-[
-  {
-    "": "Count",
-    "Upright": "Card Name",
-    "Reversed": "Card Name"
-  },
-  {
-    "": "1",
-    "Upright": "Ambush in the Bamboo Grove",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Black Cat Familiar",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Blood of the Bloodrage",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Bloodrage Dragon",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Breath of the Ice Mist",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Crimson Jutsu",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "2",
-    "Upright": "Crow Familiar",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "1",
-    "Upright": "Divination of the Mizukagami",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Fearless Rearguard",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Fire Fox",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Firebreathing",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "2",
-    "Upright": "Foot Soldier of the Battle Rabbitfolk",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "2",
-    "Upright": "Foot Soldier of the Tatsuo Clan",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Forbidden Arcane Art",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "2",
-    "Upright": "Garden Guard of the Taketori Family",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "1",
-    "Upright": "Great Tengu",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "2",
-    "Upright": "Gunners of the Tatsuo Clan",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Haruaki Mizukagami, Onmyoji",
-    "Reversed": "Water Sky Dragon"
-  },
-  {
-    "": "1",
-    "Upright": "Inferno Dragon, the Demon King of the Sixth Heaven",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Kaguya Taketori, Miko of the Moon",
-    "Reversed": "Tsukikage"
-  },
-  {
-    "": "1",
-    "Upright": "Katon Jutsu",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Letter of Stealth Command",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Mizuchi",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "1",
-    "Upright": "Moonlight",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Night Run of the Crafty Rabbit Party",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "2",
-    "Upright": "Onibi",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "2",
-    "Upright": "Paper Cutting Soldier Jutsu",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "1",
-    "Upright": "Roar of the Water Dragon",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Scout of Mount Fujin",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "1",
-    "Upright": "Shadow Pool Monk",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "1",
-    "Upright": "Shadow Pool Warrior Monk",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "2",
-    "Upright": "Stone Turtle of the Blood Pool",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "1",
-    "Upright": "Swift Vanguard Leader",
-    "Reversed": "{Fire}"
-  },
-  {
-    "": "1",
-    "Upright": "Nobunaga Tatsuo, the Fool",
-    "Reversed": "Inferno Dragon"
-  },
-  {
-    "": "1",
-    "Upright": "The Old Man of Taketori",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "1",
-    "Upright": "Tsukikage, the Hidden Dragon",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "2",
-    "Upright": "Watchman of the Hermitage",
-    "Reversed": "{Wood}"
-  },
-  {
-    "": "1",
-    "Upright": "Water Binding",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "1",
-    "Upright": "Water Sky Dragon, the Strongest Onmyoji",
-    "Reversed": "{Water}"
-  },
-  {
-    "": "2",
-    "Upright": "Ascetic Monk of the Koga Sect",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "2",
-    "Upright": "Cavalry Warrior of the Garyu Clan",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "1",
-    "Upright": "Corpse Dragon",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "2",
-    "Upright": "Demon Corpse Warrior",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "2",
-    "Upright": "Foot Soldier Captain of the Oira Clan",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "2",
-    "Upright": "Foot Soldier of the Garyu Clan",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "2",
-    "Upright": "Foot Soldier of the Oira Clan",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "1",
-    "Upright": "Glare Regna",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Guardian Tengu of Hakugingaku",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "1",
-    "Upright": "Kourin, Golden Dragon",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "1",
-    "Upright": "Kourin's Divine Armament: Dragon Might Spear and Shield",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "1",
-    "Upright": "Needle Woman",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "1",
-    "Upright": "Purification Miko",
-    "Reversed": "{Metal}"
-  },
-  {
-    "": "1",
-    "Upright": "Radiant Defensive Formation",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Renbe Shiroda, Chief Strategist",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Renji Oira, the Heretic",
-    "Reversed": "Kourin"
-  },
-  {
-    "": "1",
-    "Upright": "Roar of the Corrupt Dragon",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Sand Thrower",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Special Forces of the Garyu Clan",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "1",
-    "Upright": "Steel Spinning Kick",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Summon War Spirits",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  },
-  {
-    "": "1",
-    "Upright": "Summoning Miko",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "1",
-    "Upright": "Taiga Garyu, Lord of Fuzan",
-    "Reversed": "Tairei"
-  },
-  {
-    "": "1",
-    "Upright": "Tairei, Yellow Dragon",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "1",
-    "Upright": "Talisman of the Still Eye",
-    "Reversed": "{Earth}"
-  },
-  {
-    "": "1",
-    "Upright": "Yomi Binding Curse",
-    "Reversed": "Kyu-kyu-nyo-ritsu-ryo"
-  }
-]
+{
+  "gameName": "Dragon Shogun",
+  "formats": [
+    {
+      "name": "Blitz Shield Mode",
+      "description": "Sealed pack format. Open 5 packs to build a smaller, rapid-fire defense deck.",
+      "deckRules": {
+        "minSize": 40,
+        "maxSize": 40,
+        "maxCopiesSameName": 99,
+        "requiredZones": ["Deck", "Hand", "Battlefield", "Gates", "Hell"],
+        "startingGates": 5
+      }
+    },
+    {
+      "name": "Strategy Mode",
+      "description": "Constructed competitive format. Strict deck limits and spell requirements.",
+      "deckRules": {
+        "minSize": 50,
+        "maxSize": 50,
+        "maxCopiesSameName": 4,
+        "requiredZones": ["Deck", "Hand", "Battlefield", "Gates", "Hell"],
+        "startingGates": 5,
+        "customRestrictions": [
+          {
+            "filterProperty": "reversed_text",
+            "filterValue": "Kyu-kyu-nyo-ritsu-ryo",
+            "maxAllowedTotal": 16
+          }
+        ]
+      }
+    }
+  ],
+  "cards": [
+  {
+    "id": "DS_001",
+    "count": 1,
+    "name": "Ambush in the Bamboo Grove",
+    "element": "None",
+    "upright_text": "Ambush in the Bamboo Grove",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_002",
+    "count": 1,
+    "name": "Black Cat Familiar",
+    "element": "None",
+    "upright_text": "Black Cat Familiar",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_003",
+    "count": 1,
+    "name": "Blood of the Bloodrage",
+    "element": "Fire",
+    "upright_text": "Blood of the Bloodrage",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Fire'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_004",
+    "count": 1,
+    "name": "Bloodrage Dragon",
+    "element": "Fire",
+    "upright_text": "Bloodrage Dragon",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Fire'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_005",
+    "count": 1,
+    "name": "Breath of the Ice Mist",
+    "element": "None",
+    "upright_text": "Breath of the Ice Mist",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_006",
+    "count": 1,
+    "name": "Crimson Jutsu",
+    "element": "None",
+    "upright_text": "Crimson Jutsu",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_007",
+    "count": 2,
+    "name": "Crow Familiar",
+    "element": "Water",
+    "upright_text": "Crow Familiar",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Water'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_008",
+    "count": 1,
+    "name": "Divination of the Mizukagami",
+    "element": "None",
+    "upright_text": "Divination of the Mizukagami",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_009",
+    "count": 1,
+    "name": "Fearless Rearguard",
+    "element": "None",
+    "upright_text": "Fearless Rearguard",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_010",
+    "count": 1,
+    "name": "Fire Fox",
+    "element": "Fire",
+    "upright_text": "Fire Fox",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Fire'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_011",
+    "count": 1,
+    "name": "Firebreathing",
+    "element": "None",
+    "upright_text": "Firebreathing",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_012",
+    "count": 2,
+    "name": "Foot Soldier of the Battle Rabbitfolk",
+    "element": "Wood",
+    "upright_text": "Foot Soldier of the Battle Rabbitfolk",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Wood'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_013",
+    "count": 2,
+    "name": "Foot Soldier of the Tatsuo Clan",
+    "element": "Fire",
+    "upright_text": "Foot Soldier of the Tatsuo Clan",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Fire'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_014",
+    "count": 1,
+    "name": "Forbidden Arcane Art",
+    "element": "None",
+    "upright_text": "Forbidden Arcane Art",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_015",
+    "count": 2,
+    "name": "Garden Guard of the Taketori Family",
+    "element": "Wood",
+    "upright_text": "Garden Guard of the Taketori Family",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Wood'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_016",
+    "count": 1,
+    "name": "Great Tengu",
+    "element": "Wood",
+    "upright_text": "Great Tengu",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Wood'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_017",
+    "count": 2,
+    "name": "Gunners of the Tatsuo Clan",
+    "element": "Fire",
+    "upright_text": "Gunners of the Tatsuo Clan",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Fire'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_018",
+    "count": 1,
+    "name": "Haruaki Mizukagami, Onmyoji",
+    "element": "None",
+    "upright_text": "Haruaki Mizukagami, Onmyoji",
+    "reversed_text": "Water Sky Dragon",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_019",
+    "count": 1,
+    "name": "Inferno Dragon, the Demon King of the Sixth Heaven",
+    "element": "Fire",
+    "upright_text": "Inferno Dragon, the Demon King of the Sixth Heaven",
+    "reversed_text": "<img src='https://githubusercontent.com' width='20' height='20' alt='Fire'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_020",
+    "count": 1,
+    "name": "Kaguya Taketori, Miko of the Moon",
+    "element": "None",
+    "upright_text": "Kaguya Taketori, Miko of the Moon",
+    "reversed_text": "Tsukikage",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_021",
+    "count": 1,
+    "name": "Katon Jutsu",
+    "element": "None",
+    "upright_text": "Katon Jutsu",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_022",
+    "count": 1,
+    "name": "Letter of Stealth Command",
+    "element": "None",
+    "upright_text": "Letter of Stealth Command",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_023",
+    "count": 1,"name": "Mizuchi",
+    "element": "Water",
+    "upright_text": "Mizuchi",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_024",
+    "count": 1,"name": "Moonlight",
+    "element": "None",
+    "upright_text": "Moonlight",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_025",
+    "count": 1,"name": "Night Run of the Crafty Rabbit Party",
+    "element": "Wood",
+    "upright_text": "Night Run of the Crafty Rabbit Party",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_026",
+    "count": 2,"name": "Onibi",
+    "element": "Fire",
+    "upright_text": "Onibi",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_027",
+    "count": 2,"name": "Paper Cutting Soldier Jutsu",
+    "element": "Water",
+    "upright_text": "Paper Cutting Soldier Jutsu",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_028",
+    "count": 1,"name": "Roar of the Water Dragon",
+    "element": "None",
+    "upright_text": "Roar of the Water Dragon",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_029",
+    "count": 1,"name": "Scout of Mount Fujin",
+    "element": "Wood",
+    "upright_text": "Scout of Mount Fujin",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_030",
+    "count": 1,"name": "Shadow Pool Monk",
+    "element": "Water",
+    "upright_text": "Shadow Pool Monk",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_031",
+    "count": 1,"name": "Shadow Pool Warrior Monk",
+    "element": "Water",
+    "upright_text": "Shadow Pool Warrior Monk",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_032",
+    "count": 2,"name": "Stone Turtle of the Blood Pool",
+    "element": "Water",
+    "upright_text": "Stone Turtle of the Blood Pool",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_033",
+    "count": 1,"name": "Swift Vanguard Leader",
+    "element": "Fire",
+    "upright_text": "Swift Vanguard Leader",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_034",
+    "count": 1,"name": "Nobunaga Tatsuo, the Fool",
+    "element": "None",
+    "upright_text": "Nobunaga Tatsuo, the Fool",
+    "reversed_text": "Inferno Dragon",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_035",
+    "count": 1,"name": "The Old Man of Taketori",
+    "element": "Wood",
+    "upright_text": "The Old Man of Taketori",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_036",
+    "count": 1,"name": "Tsukikage, the Hidden Dragon",
+    "element": "Wood",
+    "upright_text": "Tsukikage, the Hidden Dragon",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_037",
+    "count": 2,"name": "Watchman of the Hermitage",
+    "element": "Wood",
+    "upright_text": "Watchman of the Hermitage",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_038",
+    "count": 1,"name": "Water Binding",
+    "element": "Water",
+    "upright_text": "Water Binding",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_039",
+    "count": 1,"name": "Water Sky Dragon, the Strongest Onmyoji",
+    "element": "Water",
+    "upright_text": "Water Sky Dragon, the Strongest Onmyoji",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_040",
+    "count": 2,"name": "Ascetic Monk of the Koga Sect",
+    "element": "Metal",
+    "upright_text": "Ascetic Monk of the Koga Sect",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_041",
+    "count": 2,"name": "Cavalry Warrior of the Garyu Clan",
+    "element": "Earth",
+    "upright_text": "Cavalry Warrior of the Garyu Clan",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_042",
+    "count": 1,"name": "Corpse Dragon",
+    "element": "Earth",
+    "upright_text": "Corpse Dragon",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com},
+  },
+{
+    "id": "DS_043",
+    "count": 2,
+    "name": "Demon Corpse Warrior",
+    "element": "Earth",
+    "upright_text": "Demon Corpse Warrior",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Earth'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_044",
+    "count": 2,
+    "name": "Foot Soldier Captain of the Oira Clan",
+    "element": "Metal",
+    "upright_text": "Foot Soldier Captain of the Oira Clan",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_045",
+    "count": 2,
+    "name": "Foot Soldier of the Garyu Clan",
+    "element": "Earth",
+    "upright_text": "Foot Soldier of the Garyu Clan",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Earth'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_046",
+    "count": 2,
+    "name": "Foot Soldier of the Oira Clan",
+    "element": "Metal",
+    "upright_text": "Foot Soldier of the Oira Clan",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_047",
+    "count": 1,
+    "name": "Glare Regna",
+    "element": "None",
+    "upright_text": "Glare Regna",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_048",
+    "count": 1,
+    "name": "Guardian Tengu of Hakugingaku",
+    "element": "Metal",
+    "upright_text": "Guardian Tengu of Hakugingaku",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_049",
+    "count": 1,
+    "name": "Kourin, Golden Dragon",
+    "element": "Metal",
+    "upright_text": "Kourin, Golden Dragon",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_050",
+    "count": 1,
+    "name": "Kourin's Divine Armament: Dragon Might Spear and Shield",
+    "element": "Metal",
+    "upright_text": "Kourin's Divine Armament: Dragon Might Spear and Shield",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_051",
+    "count": 1,
+    "name": "Needle Woman",
+    "element": "Metal",
+    "upright_text": "Needle Woman",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_052",
+    "count": 1,
+    "name": "Purification Miko",
+    "element": "Metal",
+    "upright_text": "Purification Miko",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Metal'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_053",
+    "count": 1,
+    "name": "Radiant Defensive Formation",
+    "element": "None",
+    "upright_text": "Radiant Defensive Formation",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_054",
+    "count": 1,
+    "name": "Renbe Shiroda, Chief Strategist",
+    "element": "None",
+    "upright_text": "Renbe Shiroda, Chief Strategist",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_055",
+    "count": 1,
+    "name": "Renji Oira, the Heretic",
+    "element": "None",
+    "upright_text": "Renji Oira, the Heretic",
+    "reversed_text": "Kourin",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_056",
+    "count": 1,
+    "name": "Roar of the Corrupt Dragon",
+    "element": "None",
+    "upright_text": "Roar of the Corrupt Dragon",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_057",
+    "count": 1,
+    "name": "Sand Thrower",
+    "element": "None",
+    "upright_text": "Sand Thrower",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_058",
+    "count": 1,
+    "name": "Special Forces of the Garyu Clan",
+    "element": "Earth",
+    "upright_text": "Special Forces of the Garyu Clan",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Earth'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_059",
+    "count": 1,
+    "name": "Steel Spinning Kick",
+    "element": "None",
+    "upright_text": "Steel Spinning Kick",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_060",
+    "count": 1,
+    "name": "Summon War Spirits",
+    "element": "None",
+    "upright_text": "Summon War Spirits",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_061",
+    "count": 1,
+    "name": "Summoning Miko",
+    "element": "Earth",
+    "upright_text": "Summoning Miko",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Earth'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_062",
+    "count": 1,
+    "name": "Taiga Garyu, Lord of Fuzan",
+    "element": "None",
+    "upright_text": "Taiga Garyu, Lord of Fuzan",
+    "reversed_text": "Tairei",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "https://githubusercontent.com"
+  },
+  {
+    "id": "DS_063",
+    "count": 1,
+    "name": "Tairei, Yellow Dragon",
+    "element": "Earth",
+    "upright_text": "Tairei, Yellow Dragon",
+    "reversed_text": "<img src='https://githubusercontent.com' width='24' height='24' alt='Earth'/>",
+    "image_url": "https://githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_064",
+    "count": 1,"name": "Talisman of the Still Eye",
+    "element": "Earth",
+    "upright_text": "Talisman of the Still Eye",
+    "reversed_text": "",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"
+  },
+  {
+	"id": "DS_065",
+    "count": 1,"name": "Yomi Binding Curse",
+    "element": "None",
+    "upright_text": "Yomi Binding Curse",
+    "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+    "image_url": "githubusercontent.com",
+    "image_reversed_url": "githubusercontent.com"}]
