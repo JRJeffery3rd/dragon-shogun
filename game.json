@@ -1,0 +1,80 @@
+{
+  "gameName": "Dragon Shogun",
+  "element_assets": {
+    "Fire": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_fire.webp",
+    "Water": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_water.webp",
+    "Wood": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_wood.webp",
+    "Metal": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_metal.webp",
+    "Earth": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_earth.webp"
+  },
+  "formats": [
+    {
+      "name": "Blitz Shield Mode",
+      "description": "Sealed pack format. Open 5 packs to build a smaller, rapid-fire defense deck.",
+      "deckRules": {
+        "minSize": 40,
+        "maxSize": 40,
+        "maxCopiesSameName": 99,
+        "requiredZones": [
+          "Deck",
+          "Hand",
+          "Battlefield",
+          "Gates",
+          "Hell"
+        ],
+        "startingGates": 5
+      }
+    },
+    {
+      "name": "Strategy Mode",
+      "description": "Constructed competitive format. Strict deck limits and spell requirements.",
+      "deckRules": {
+        "minSize": 50,
+        "maxSize": 50,
+        "maxCopiesSameName": 4,
+        "requiredZones": [
+          "Deck",
+          "Hand",
+          "Battlefield",
+          "Gates",
+          "Hell"
+        ],
+        "startingGates": 5,
+        "customRestrictions": [
+          {
+            "filterProperty": "reversed_text",
+            "filterValue": "Kyu-kyu-nyo-ritsu-ryo",
+            "maxAllowedTotal": 16
+          }
+        ]
+      }
+    }
+  ],
+  "tableZones": [
+    {
+      "name": "Deck",
+      "type": "deck",
+      "faceDown": true
+    },
+    {
+      "name": "Hand",
+      "type": "hand",
+      "faceDown": true
+    },
+    {
+      "name": "Battlefield",
+      "type": "board",
+      "faceDown": false
+    },
+    {
+      "name": "Gates",
+      "type": "horizontal_row",
+      "faceDown": true,
+      "maxInitial": 5
+    },
+    {
+      "name": "Hell",
+      "type": "graveyard",
+      "faceDown": false
+    }
+  ]
