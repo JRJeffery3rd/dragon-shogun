@@ -1,11 +1,11 @@
 {
   "gameName": "Dragon Shogun",
   "element_assets": {
-    "Fire": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/icons/icn_fire.webp",
-    "Water": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/icons/icn_water.webp",
-    "Wood": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/icons/icn_wood.webp",
-    "Metal": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/icons/icn_metal.webp",
-    "Earth": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/icons/icn_earth.webp"
+    "Fire": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_fire.webp",
+    "Water": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_water.webp",
+    "Wood": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_wood.webp",
+    "Metal": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_metal.webp",
+    "Earth": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_earth.webp"
   },
   "formats": [
     {
