@@ -20,9 +20,9 @@
   },
   "deckBuilding": {
     "mainFilters": [
-      "Type",
-      "Element",
-      "Cost"
+      "type",
+      "element",
+      "cost"
     ],
     "formats": [
       {
