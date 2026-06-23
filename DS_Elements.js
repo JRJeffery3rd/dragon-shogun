@@ -2,7 +2,19 @@ function createTCGArenaCardElement(cardData) {
   const card = document.createElement('div');
   card.className = 'tcgarena-card';
   card.dataset.id = cardData.id;
-  
+
+// Reads the element details cleanly from the root layout
+let costHTML = '';
+if (cardData.cost_details) {
+  Object.entries(cardData.cost_details).forEach(([elementName, amount]) => {
+    if (ASSET_REFS.elements[elementName]) {
+      costHTML += `<div class="cost-symbol"><img src="${ASSET_REFS.elements[elementName]}"/><span>${amount}</span></div>`;
+    } else {
+      costHTML += `<div class="cost-symbol generic-cost"><span>${amount}</span></div>`;
+    }
+  });
+}
+
   // Track states independently
   card.dataset.faceState = 'upright'; // 'upright' or 'reversed'
   card.dataset.tapState = 'untapped';  // 'untapped' or 'tapped'
