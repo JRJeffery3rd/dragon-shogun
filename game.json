@@ -1,5 +1,11 @@
 {
   "name": "Dragon Shogun",
+  "shortName": "DS",
+  "version": "1.0.0",
+  "cardLists": [
+    "https://jrjeffery3rd.github.io/dragon-shogun/dragon_shogun_cards.json"
+  ]
+},
   "menuBackgroundImage": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/logo.webp?raw=true",
   "defaultRessources": {
     "backgrounds": [
