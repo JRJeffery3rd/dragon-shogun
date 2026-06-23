@@ -1,653 +1,1349 @@
 [
-    {
-      "id": "DS_001",
-      "count": 1,
-      "name": "Ambush in the Bamboo Grove",
-      "element": "None",
-      "upright_text": "Ambush in the Bamboo Grove",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-001_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_002",
-      "count": 1,
-      "name": "Black Cat Familiar",
-      "element": "None",
-      "upright_text": "Black Cat Familiar",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-002_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_003",
-      "count": 1,
-      "name": "Blood of the Bloodrage",
-      "element": "Fire",
-      "upright_text": "Blood of the Bloodrage",
-      "reversed_text": "{Fire}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-003_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_004",
-      "count": 1,
-      "name": "Bloodrage Dragon",
-      "element": "Fire",
-      "upright_text": "Bloodrage Dragon",
-      "reversed_text": "{Fire}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-004_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+[
+  {
+    "id": "DS_001",
+    "face": {
+      "front": {
+        "name": "Ambush in the Bamboo Grove",
+        "type": "Jutsu",
+		"power": null,
+        "health": null,
+        "cost": { 
+			"Wood": 1,
+			"Generic": 2
+		},
+        "element": { "Wood" },
+        "upright_text": "Untap target your wargeist.",
+        "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-001_EN_on.png"
+      }
+    }
+  },
+  {
+    "id": "DS_002",
+    "face": {
+      "front": {
+        "name": "Black Cat Familiar",
+        "type": "Wargeist",
+        "traits": "Familiar",
+ 		"power": 2,
+        "health": 2,
+        "cost": { 
+			"Water": 1,
+			"Generic": 2 
+		},
+        "element": { "Water" },
+        "upright_text": "",
+        "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-002_EN_on.png"
+      }
+    }
+  },
+  {
+    "id": "DS_003",
+    "face": {
+      "front": {
+        "name": "Blood of the Bloodrage",
+        "type": "Jutsu",
+        "traits": "Enchant: Wargeist",
+		"power": null,
+        "health": null,
+        "cost": { 
+			"Fire": 1 
+		},
+        "element": { "Fire" },
+        "upright_text": "Enchanted wargeist gets +1/+0 and Swift.",
+        "reverse_name": "{Fire}",
+        "reversed_text": "<Enter> Draw a card.",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-003_EN_on.png"
+      }
+    }
+  },
+  {
+    "id": "DS_004",
+    "face": {
+      "front": {
+        "name": "Bloodrage Dragon",
+        "type": "Wargeist",
+        "traits": "Dragon",
+		"power": 5,
+        "health": 5,
+        "cost": { 
+			"Fire": 1,
+			"Generic": 4 
+		},
+        "element": { "Fire" },
+        "upright_text": "[Berserker] (This wargeist attacks each turn if able.)",
+        "reverse_name": { "Fire" },
+        "reversed_text": "<Enter> Draw a card.",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-004_EN_on.png"
+      }
+    }
+  },
+  {
       "id": "DS_005",
-      "count": 1,
-      "name": "Breath of the Ice Mist",
-      "element": "None",
-      "upright_text": "Breath of the Ice Mist",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-005_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_006",
-      "count": 1,
-      "name": "Crimson Jutsu",
-      "element": "None",
-      "upright_text": "Crimson Jutsu",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-006_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+      "face": {
+        "front": {
+        "name": "Breath of the Ice Mist",
+        "type": "Jutsu",
+		"power": null,
+        "health": null,
+        "cost": { 
+			"Water": 1,
+			"Generic": 3 
+		},
+        "element": { "Water" },
+        "upright_text": "Tap all wargeists target daimyo controls.",
+        "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-005_EN_on.png",
+      }
+    }
+  },
+  {      
+	  "id": "DS_006",
+      "face": {
+        "front": {
+      	"name": "Crimson Jutsu",
+        "type": "Jutsu",
+		"power": null,
+        "health": null,
+        "cost": { 
+			"Fire": 1,
+			"Generic": 2 
+		},
+        "element": { "Fire" },
+      	"upright_text": "Deal 3 damage to target wargeist.",
+      	"reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+      	"image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-006_EN_on.png",
+      }
+    }
+  },
+  {      
       "id": "DS_007",
-      "count": 2,
-      "name": "Crow Familiar",
-      "element": "Water",
-      "upright_text": "Crow Familiar",
-      "reversed_text": "{Water}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-007_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+      "face": {
+        "front": {
+      	"name": "Crow Familiar",
+        "type": "Wargeist",
+        "traits": "Familiar",
+		"power": 2,
+        "health": 2,
+		"cost": { 
+			"Water": 1,
+			"Generic": 3 
+		},
+        "element": { "Water" },
+		"upright_text": "[Spy] (This wargeist can't be blocked except by wargeists with Spy or Watcher.)",
+        "reverse_name": { "Water" },
+        "reversed_text": "<Enter> Draw a card.",
+      	"image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-007_EN_on.png",
+      }
+    }
+  },
+  {      
       "id": "DS_008",
-      "count": 1,
-      "name": "Divination of the Mizukagami",
-      "element": "None",
-      "upright_text": "Divination of the Mizukagami",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-008_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+      "face": {
+        "front": {
+      	"name": "Divination of the Mizukagami",
+        "type": "Jutsu",
+		"power": null,
+        "health": null,
+        "cost": { 
+			"Water": 1,
+			"Generic": 3 },
+        "element": { "Water" },
+		"upright_text": "Draw two cards.",
+        "reverse_name": { "Water" },
+        "reversed_text": "<Enter> Draw a card.",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-008_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_009",
-      "count": 1,
-      "name": "Fearless Rearguard",
-      "element": "None",
-      "upright_text": "Fearless Rearguard",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-009_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+      "face": {
+        "front": {
+        "name": "Fearless Rearguard",
+        "type": "Wargeist",
+        "traits": "Human/Soldier",
+		"power": 4,
+        "health": 2,
+		"cost": { 
+			"Fire": 1,
+			"Generic": 3 
+		},
+        "element": { "Fire" },
+        "upright_text": "[Enter] Each daimyo sacrifices a wargeist of their choice.",
+        "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-009_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_010",
-      "count": 1,
-      "name": "Fire Fox",
-      "element": "Fire",
-      "upright_text": "Fire Fox",
-      "reversed_text": "{Fire}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-010_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_011",
-      "count": 1,
-      "name": "Firebreathing",
-      "element": "None",
-      "upright_text": "Firebreathing",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-011_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_012",
-      "count": 2,
-      "name": "Foot Soldier of the Battle Rabbitfolk",
-      "element": "Wood",
-      "upright_text": "Foot Soldier of the Battle Rabbitfolk",
-      "reversed_text": "{Wood}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-012_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_013",
-      "count": 2,
-      "name": "Foot Soldier of the Tatsuo Clan",
-      "element": "Fire",
-      "upright_text": "Foot Soldier of the Tatsuo Clan",
-      "reversed_text": "{Fire}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-013_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_014",
-      "count": 1,
-      "name": "Forbidden Arcane Art",
-      "element": "None",
-      "upright_text": "Forbidden Arcane Art",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-014_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_015",
-      "count": 2,
-      "name": "Garden Guard of the Taketori Family",
-      "element": "Wood",
-      "upright_text": "Garden Guard of the Taketori Family",
-      "reversed_text": "{Wood}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-015_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+      "face": {
+        "front": {
+        "name": "Fire Fox",
+        "type": "Wargeist",
+        "traits": "Yokai",
+		"power": 4,
+        "health": 2,
+		"cost": { 
+			"Fire": 2,
+			"Generic": 1
+		},
+        "element": { "Fire" },
+      	"upright_text": "[Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",
+        "reverse_name": { "Fire" },
+        "reversed_text": "<Enter> Draw a card.",
+      	"image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-010_EN_on.png",
+      }
+    }
+  },
+  {
+      	"id": "DS_011",
+        "face": {
+          "front": {
+       	  "name": "Firebreathing",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Fire": 1,
+			  "Generic": 4 
+		  },
+          "element": { "Fire" },
+      	  "upright_text": "Deal 3 damage divided as you choose among one or more target wargeists.",
+      	  "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+      	  "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-011_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_012",
+        "face": {
+          "front": {
+      	  "name": "Foot Soldier of the Battle Rabbitfolk",
+          "type": "Wargeist",
+          "traits": "Rabbitfolk/Soldier",
+		  "power": 3,
+          "health": 2,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 1
+		  },
+          "element": { "Wood" },
+      	  "upright_text": "",
+          "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+      	  "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-012_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_013",
+        "face": {
+          "front": {
+      	  "name": "Foot Soldier of the Tatsuo Clan",
+          "type": "Wargeist",
+          "traits": "Lizard/Soldier",
+		  "power": 2,
+          "health": 1,
+          "cost": {
+			  "Fire": 1 
+				  },
+          "element": { "Fire" },
+      	  "upright_text": "[Reckless] (This wargeist can't block.)",
+          "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+		  "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-013_EN_on.png",
+      }
+    }
+  },
+  {
+		"id": "DS_014",
+        "face": {
+          "front": {
+		  "name": "Forbidden Arcane Art",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 3 },
+          "element": { "Wood" },
+      	  "upright_text": "Switch target wargeist.",
+      	  "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+      	  "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-014_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_015",
+        "face": {
+          "front": {
+		  "name": "Garden Guard of the Taketori Family",
+          "type": "Wargeist",
+          "traits": "Human/Ninjya",
+		  "power": 2,
+          "health": 3,
+          "cost": { 
+			  "Wood": 1 
+		  },
+          "element": { "Wood" },
+		  "upright_text": "[Caution] (This wargeist can't attack.) \n[Watcher] (This wargeist can block wargeists with Spy.)",
+		  "reversed_text": { "Wood" },
+		  "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-015_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_016",
-      "count": 1,
-      "name": "Great Tengu",
-      "element": "Wood",
-      "upright_text": "Great Tengu",
-      "reversed_text": "{Wood}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-016_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Great Tengu",
+          "type": "Wargeist",
+          "traits": "Tengu",
+		  "power": 4,
+          "health": 3,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 3 },
+          "element": { "Wood" },
+          "upright_text": "[Enter] Destroy target jutsu.",
+          "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-016_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_017",
-      "count": 2,
-      "name": "Gunners of the Tatsuo Clan",
-      "element": "Fire",
-      "upright_text": "Gunners of the Tatsuo Clan",
-      "reversed_text": "{Fire}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-017_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Gunners of the Tatsuo Clan",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 2,
+          "health": 3,
+          "cost": { "Fire" },
+          "element": { "Fire" },
+          "upright_text": "If this wargeist is attacking, it gets +3/+0.",
+	      "reverse_name": { "Fire" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-017_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_018",
-      "count": 1,
-      "name": "Haruaki Mizukagami, Onmyoji",
-      "element": "None",
-      "upright_text": "Haruaki Mizukagami, Onmyoji",
-      "reversed_text": "Water Sky Dragon",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-018_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Haruaki Mizukagami, Onmyoji",
+          "type": "Wargeist",
+          "traits": "Human/Jujutsushi",
+		  "power": 2,
+          "health": 3,
+          "cost": { 
+			  "Water": 2,
+		  	  "Generic": 2
+		  },
+          "element": { "Water" },
+          "upright_text": "[Enter] Draw two cards. Then, discard a card.\n{Water}: Switch this wargeist.",
+	      "reversed_name": "Water Sky Dragon",
+          "reversed_type": "Wargeist",
+          "reversed_traits": "Dragon/Jujutsushi",
+		  "reversed_power": 4,
+          "reversed_health": 4,
+          "reversed_cost": { 
+			  "Water": 1,
+			  "Generic": 5 
+		  },
+          "reversed_text": "[Gate Break 2], [Spy]",
+          "reversed_element": { "Water" },
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-018_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_019",
-      "count": 1,
-      "name": "Inferno Dragon, the Demon King of the Sixth Heaven",
-      "element": "Fire",
-      "upright_text": "Inferno Dragon, the Demon King of the Sixth Heaven",
-      "reversed_text": "{Fire}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-019_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Inferno Dragon, the Demon King of the Sixth Heaven",
+          "type": "Wargeist",
+          "traits": "Dragon/Shogun",
+		  "power": 6,
+          "health": 5,
+          "cost": { 
+			  "Fire": 1,
+			  "Generic": 6 
+		  },
+          "element": { "Fire" },
+          "upright_text": "[Gate Break 2] (This Wargeist destroys two gates.)\n[Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",
+	      "reverse_name": { "Fire" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-019_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_020",
-      "count": 1,
-      "name": "Kaguya Taketori, Miko of the Moon",
-      "element": "None",
-      "upright_text": "Kaguya Taketori, Miko of the Moon",
-      "reversed_text": "Tsukikage",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-020_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_021",
-      "count": 1,
-      "name": "Katon Jutsu",
-      "element": "None",
-      "upright_text": "Katon Jutsu",
+        "face": {
+          "front": {
+          "name": "Kaguya Taketori, Miko of the Moon",
+          "type": "Wargeist",
+          "traits": "Human/Miko",
+		  "power": 2,
+          "health": 3,
+          "cost": { 
+			  "Wood": 2, 
+			  "Generic": 2 },
+          "element": { "Wood" },
+          "upright_text": "[Agony] Return this wargeist to the battlefield switched under its owner's control.",
+	      "reversed_name": "Tsukikage",
+          "reversed_type": "Wargeist",
+          "reversed_traits": "Dragon/Miko",
+		  "reversed_power": 6,
+          "reversed_health": 6,
+          "reversed_cost": { 
+			  "Wood": 1,
+			  "Generic": 4 
+		  },
+          "reversed_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
+          "reversed_element": { "Wood" },
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-020_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_021",
+        "face": {
+          "front": {
+          "name": "Katon Jutsu",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Fire": 1,
+			  "Generic": 2 
+		  },
+          "element": { "Fire" },
+      "upright_text": "Untap target wargeist. It gets +1/+1 this turn.",
       "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
       "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-021_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_022",
-      "count": 1,
-      "name": "Letter of Stealth Command",
-      "element": "None",
-      "upright_text": "Letter of Stealth Command",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-022_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+      }
+    }
+  },
+  {
+        "id": "DS_022",
+        "face": {
+          "front": {
+          "name": "Letter of Stealth Command",
+          "type": "Jutsu",
+          "traits": "Enchant: Wargeist",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Wood": 1
+		  },
+          "element": { "Wood" },
+          "upright_text": "Enchanted wargeist gets Spy.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-022_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_023",
-      "count": 1,
-      "name": "Mizuchi",
-      "element": "Water",
-      "upright_text": "Mizuchi",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-023_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_024",
-      "count": 1,
-      "name": "Moonlight",
-      "element": "None",
-      "upright_text": "Moonlight",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-024_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Mizuchi",
+          "type": "Wargeist",
+          "traits": "Familiar",
+		  "power": 2,
+          "health": 6,
+          "cost": { 
+			  "Water": 1,
+			  "Generic": 4 
+		  },
+          "element": { "Water" },
+          "upright_text": "Whenever this wargeist destroys a gate, draw a card.",
+	      "reverse_name": { "Water" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-023_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_024",
+        "face": {
+          "front": {
+          "name": "Moonlight",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 2 
+		  },
+          "element": { "Wood" },
+          "upright_text": "Tap target wargeist. Draw a card.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-024_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_025",
-      "count": 1,
-      "name": "Night Run of the Crafty Rabbit Party",
-      "element": "Wood",
-      "upright_text": "Night Run of the Crafty Rabbit Party",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-025_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Night Run of the Crafty Rabbit Party",
+          "type": "Wargeist",
+          "traits": "Human/Ninjya",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Wood": 2 
+		  },
+          "element": { "Wood" },
+          "upright_text": "[Spy] (This wargeist can't be blocked except by wargeists with Spy or Watcher.)",
+          "reversed_text": "",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-025_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_026",
-      "count": 2,
-      "name": "Onibi",
-      "element": "Fire",
-      "upright_text": "Onibi",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-026_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_027",
-      "count": 2,
-      "name": "Paper Cutting Soldier Jutsu",
-      "element": "Water",
-      "upright_text": "Paper Cutting Soldier Jutsu",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-027_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_028",
-      "count": 1,
-      "name": "Roar of the Water Dragon",
-      "element": "None",
-      "upright_text": "Roar of the Water Dragon",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-028_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Onibi",
+          "type": "Wargeist",
+          "traits": "Yokai",
+		  "power": 3,
+          "health": 1,
+          "cost": { 
+			  "Fire": 1,
+			  "Generic": 1
+		  },
+          "element": { "Fire" },
+          "upright_text": "[Agony] Draw a card. Then, discard a card.",
+	      "reverse_name": { "Fire" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-026_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_027",
+        "face": {
+          "front": {
+          "name": "Paper Cutting Soldier Jutsu",
+          "type": "Wargeist",
+          "traits": "Familiar/Soldier",
+		  "power": 0,
+          "health": 2,
+          "cost": { 
+			  "Water": 1,
+		  },
+          "element": { "Water" },
+          "upright_text": "[Caution] (This wargeist can't attack.)\n[Agony] Draw a card.",
+	      "reverse_name": { "Water" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-027_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_028",
+        "face": {
+          "front": {
+          "name": "Roar of the Water Dragon",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Water": 1,
+		  },
+          "element": { "Water" },
+          "upright_text": "Return target wargeist to its owner's hand.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-028_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_029",
-      "count": 1,
-      "name": "Scout of Mount Fujin",
-      "element": "Wood",
-      "upright_text": "Scout of Mount Fujin",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-029_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Scout of Mount Fujin",
+          "type": "Wargeist",
+          "traits": "Tengu",
+		  "power": 3,
+          "health": 4,
+          "cost": { 
+			  "Wood": 2,
+			  "Generic": 1
+		  },
+          "element": { "Wood" },
+          "upright_text": "[Blessing] (This wargeist can't be the target of jutsus or abilities.)",
+	      "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-029_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_030",
-      "count": 1,
-      "name": "Shadow Pool Monk",
-      "element": "Water",
-      "upright_text": "Shadow Pool Monk",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-030_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Shadow Pool Monk",
+          "type": "Wargeist",
+          "traits": "Kappa/Monk",
+		  "power": 2,
+          "health": 2,
+          "cost": { 
+			  "Water": 2
+		  },
+          "element": { "Water" },
+          "upright_text": "[Conquer: {Fire}] (This wargeist can't be blocked, targeted, or dealt damage by {Fire} cards.)",
+	      "reverse_name": { "Water" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-030_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_031",
-      "count": 1,
-      "name": "Shadow Pool Warrior Monk",
-      "element": "Water",
-      "upright_text": "Shadow Pool Warrior Monk",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-031_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Shadow Pool Warrior Monk",
+          "type": "Wargeist",
+          "traits": "Kappa/Monk",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Water": 2,
+			  "Generic": 1
+		  },
+          "element": { "Water" },
+          "upright_text": "[Enter] Return another target wargeist to its owner's hand.",
+	      "reverse_name": { "Water" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-031_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_032",
-      "count": 2,
-      "name": "Stone Turtle of the Blood Pool",
-      "element": "Water",
-      "upright_text": "Stone Turtle of the Blood Pool",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-032_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Stone Turtle of the Blood Pool",
+          "type": "Wargeist",
+          "traits": "Turtle",
+		  "power": 1,
+          "health": 4,
+          "cost": { 
+			  "Water": 1,
+			  "Generic": 1
+		  },
+          "element": { "Water" },
+          "upright_text": "",
+	      "reverse_name": { "Water" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-032_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_033",
-      "count": 1,
-      "name": "Swift Vanguard Leader",
-      "element": "Fire",
-      "upright_text": "Swift Vanguard Leader",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-033_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Swift Vanguard Leader",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 2,
+          "health": 2,
+          "cost": { 
+			  "Fire": 2
+		  },
+          "element": { "Fire" },
+          "upright_text": "[Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",
+	      "reverse_name": { "Fire" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-033_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_034",
-      "count": 1,
-      "name": "Nobunaga Tatsuo, the Fool",
-      "element": "None",
-      "upright_text": "Nobunaga Tatsuo, the Fool",
-      "reversed_text": "Inferno Dragon",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-034_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Nobunaga Tatsuo, the Fool",
+          "type": "Wargeist",
+          "traits": "Human/Shogun",
+		  "power": 3,
+          "health": 2,
+          "cost": { 
+			  "Fire": 2,
+			  "Generic": 2
+		  },
+          "element": { "Fire" },
+          "upright_text": "[Enter] Deal 4 damage to another target wargeist.\n{Fire}: Switch this wargeist.",
+	      "reversed_name": "Inferno Dragon",
+          "reversed_type": "Wargeist",
+          "reversed_traits": "Dragon/Shogun",
+		  "reversed_power": 6,
+          "reversed_health": 5,
+          "reversed_cost": { 
+			  "Fire": 1,
+			  "Generic": 5
+		  },
+          "reversed_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
+          "reversed_element": { "Fire" },
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-034_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_035",
-      "count": 1,
-      "name": "The Old Man of Taketori",
-      "element": "Wood",
-      "upright_text": "The Old Man of Taketori",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-035_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "The Old Man of Taketori",
+          "type": "Wargeist",
+          "traits": "Human",
+		  "power": 5,
+          "health": 5,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 4
+		  },
+          "element": { "Wood" },
+          "upright_text": "",
+	      "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-035_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_036",
-      "count": 1,
-      "name": "Tsukikage, the Hidden Dragon",
-      "element": "Wood",
-      "upright_text": "Tsukikage, the Hidden Dragon",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-036_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
+        "face": {
+          "front": {
+          "name": "Tsukikage, the Hidden Dragon",
+          "type": "Wargeist",
+          "traits": "Dragon/Miko",
+		  "power": 6,
+          "health": 6,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 6
+		  },
+          "element": { "Wood" },
+          "upright_text": "Whenever this wargeist destroys a gate, you may return an elementium you control to its owner's hand.",
+	      "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-036_EN_on.png",
+      }
+    }
+  },
+  {
       "id": "DS_037",
-      "count": 2,
-      "name": "Watchman of the Hermitage",
-      "element": "Wood",
-      "upright_text": "Watchman of the Hermitage",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-037_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_038",
-      "count": 1,
-      "name": "Water Binding",
-      "element": "Water",
-      "upright_text": "Water Binding",
+        "face": {
+          "front": {
+          "name": "Watchman of the Hermitage",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 4,
+          "health": 2,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 2
+		  },
+          "element": { "Wood" },
+          "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.)",
+	      "reverse_name": { "Wood" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-037_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_038",
+        "face": {
+          "front": {
+          "name": "Water Binding",
+          "type": "Jutsu",
+          "traits": "Enchant: Wargeist",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Water": 1 
+		  },
+          "element": { "Water" },
+      "upright_text": "[Enter] Tap enchanted wargeist. \nEnchanted wargeist doesn't untap during the untap step.",
       "reversed_text": "",
       "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-038_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_039",
-      "count": 1,
-      "name": "Water Sky Dragon, the Strongest Onmyoji",
-      "element": "Water",
-      "upright_text": "Water Sky Dragon, the Strongest Onmyoji",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-039_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_040",
-      "count": 2,
-      "name": "Ascetic Monk of the Koga Sect",
-      "element": "Metal",
-      "upright_text": "Ascetic Monk of the Koga Sect",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-040_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_041",
-      "count": 2,
-      "name": "Cavalry Warrior of the Garyu Clan",
-      "element": "Earth",
-      "upright_text": "Cavalry Warrior of the Garyu Clan",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-041_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_042",
-      "count": 1,
-      "name": "Corpse Dragon",
-      "element": "Earth",
-      "upright_text": "Corpse Dragon",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-042_EN_on.png",
-      "image_reversed_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-042_EN_on.png"
-    },
-    {
-      "id": "DS_043",
-      "count": 2,
-      "name": "Demon Corpse Warrior",
-      "element": "Earth",
-      "upright_text": "Demon Corpse Warrior",
-      "reversed_text": "{Earth}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-043_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_044",
-      "count": 2,
-      "name": "Foot Soldier Captain of the Oira Clan",
-      "element": "Metal",
-      "upright_text": "Foot Soldier Captain of the Oira Clan",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-044_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_045",
-      "count": 2,
-      "name": "Foot Soldier of the Garyu Clan",
-      "element": "Earth",
-      "upright_text": "Foot Soldier of the Garyu Clan",
-      "reversed_text": "{Earth}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-045_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_046",
-      "count": 2,
-      "name": "Foot Soldier of the Oira Clan",
-      "element": "Metal",
-      "upright_text": "Foot Soldier of the Oira Clan",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-046_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_047",
-      "count": 1,
-      "name": "Glare Regna",
-      "element": "None",
-      "upright_text": "Glare Regna",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-047_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_048",
-      "count": 1,
-      "name": "Guardian Tengu of Hakugingaku",
-      "element": "Metal",
-      "upright_text": "Guardian Tengu of Hakugingaku",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-048_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_049",
-      "count": 1,
-      "name": "Kourin, Golden Dragon",
-      "element": "Metal",
-      "upright_text": "Kourin, Golden Dragon",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-049_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_050",
-      "count": 1,
-      "name": "Kourin's Divine Armament: Dragon Might Spear and Shield",
-      "element": "Metal",
-      "upright_text": "Kourin's Divine Armament: Dragon Might Spear and Shield",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-050_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_051",
-      "count": 1,
-      "name": "Needle Woman",
-      "element": "Metal",
-      "upright_text": "Needle Woman",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-051_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_052",
-      "count": 1,
-      "name": "Purification Miko",
-      "element": "Metal",
-      "upright_text": "Purification Miko",
-      "reversed_text": "{Metal}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-052_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_053",
-      "count": 1,
-      "name": "Radiant Defensive Formation",
-      "element": "None",
-      "upright_text": "Radiant Defensive Formation",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-053_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_054",
-      "count": 1,
-      "name": "Renbe Shiroda, Chief Strategist",
-      "element": "None",
-      "upright_text": "Renbe Shiroda, Chief Strategist",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-054_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_055",
-      "count": 1,
-      "name": "Renji Oira, the Heretic",
-      "element": "None",
-      "upright_text": "Renji Oira, the Heretic",
-      "reversed_text": "Kourin",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-055_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_056",
-      "count": 1,
-      "name": "Roar of the Corrupt Dragon",
-      "element": "None",
-      "upright_text": "Roar of the Corrupt Dragon",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-056_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_057",
-      "count": 1,
-      "name": "Sand Thrower",
-      "element": "None",
-      "upright_text": "Sand Thrower",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-057_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_058",
-      "count": 1,
-      "name": "Special Forces of the Garyu Clan",
-      "element": "Earth",
-      "upright_text": "Special Forces of the Garyu Clan",
-      "reversed_text": "{Earth}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-058_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_059",
-      "count": 1,
-      "name": "Steel Spinning Kick",
-      "element": "None",
-      "upright_text": "Steel Spinning Kick",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-059_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_060",
-      "count": 1,
-      "name": "Summon War Spirits",
-      "element": "None",
-      "upright_text": "Summon War Spirits",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-060_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_061",
-      "count": 1,
-      "name": "Summoning Miko",
-      "element": "Earth",
-      "upright_text": "Summoning Miko",
-      "reversed_text": "{Earth}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-061_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_062",
-      "count": 1,
-      "name": "Taiga Garyu, Lord of Fuzan",
-      "element": "None",
-      "upright_text": "Taiga Garyu, Lord of Fuzan",
-      "reversed_text": "Tairei",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-062_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_063",
-      "count": 1,
-      "name": "Tairei, Yellow Dragon",
-      "element": "Earth",
-      "upright_text": "Tairei, Yellow Dragon",
-      "reversed_text": "{Earth}",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-063_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_064",
-      "count": 1,
-      "name": "Talisman of the Still Eye",
-      "element": "Earth",
-      "upright_text": "Talisman of the Still Eye",
-      "reversed_text": "",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-064_EN_on.png",
-      "image_reversed_url": ""
-    },
-    {
-      "id": "DS_065",
-      "count": 1,
-      "name": "Yomi Binding Curse",
-      "element": "None",
-      "upright_text": "Yomi Binding Curse",
-      "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
-      "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-065_EN_on.png",
-      "image_reversed_url": ""
+      }
     }
-  ]
+  },
+  {
+      "id": "DS_039",
+        "face": {
+          "front": {
+          "name": "Water Sky Dragon, the Strongest Onmyoji",
+          "type": "Wargeist",
+          "traits": "Dragon/Jujutsushi",
+		  "power": 4,
+          "health": 2,
+          "cost": { 
+			  "Wood": 1,
+			  "Generic": 6
+		  },
+          "element": { "Water" },
+          "upright_text": "Whenever this wargeist attacks, choose target jutsu that has kyu-kyu-nyo-ritsu-ryo and doesn’t have a classification from your hell. You may cast it this turn. If that jutsu would be put into your hell, exile it instead.",
+	      "reverse_name": { "Water" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-039_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_040",
+        "face": {
+          "front": {
+          "name": "Ascetic Monk of the Koga Sect",
+          "type": "Wargeist",
+          "traits": "Tiger/Monk",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Metal": 1
+		  },
+          "element": { "Metal" },
+          "upright_text": "",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-040_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_041",
+        "face": {
+          "front": {
+          "name": "Cavalry Warrior of the Garyu Clan",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 1,
+          "health": 3,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 1
+		  },
+          "element": { "Earth" },
+          "upright_text": "If this wargeist is attacking, it gets +2/-1.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-041_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_042",
+        "face": {
+          "front": {
+          "name": "Corpse Dragon",
+          "type": "Wargeist",
+          "traits": "Corpse Demon/Dragon",
+		  "power": 3,
+          "health": 5,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 4
+		  },
+          "element": { "Earth" },
+          "upright_text": "Whenever this wargeist deals ikusa damage to another wargeist, destroy that wargeist at the end of this turn.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-042_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_043",
+        "face": {
+          "front": {
+          "name": "Demon Corpse Warrior",
+          "type": "Wargeist",
+          "traits": "Corpse Demon/Soldier",
+		  "power": 4,
+          "health": 4,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 2
+		  },
+          "element": { "Earth" },
+          "upright_text": "At the end of each turn, if this wargeist Ikusa'd with another wargeist this turn, destroy this wargeist.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-043_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_044",
+        "face": {
+          "front": {
+          "name": "Foot Soldier Captain of the Oira Clan",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 3,
+          "health": 3,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 2
+		  },
+          "element": { "Metal" },
+          "upright_text": "",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-044_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_045",
+        "face": {
+          "front": {
+          "name": "Foot Soldier of the Garyu Clan",
+          "type": "Wargeist",
+          "traits": "Mole/Soldier",
+		  "power": 0,
+          "health": 3,
+          "cost": { 
+			  "Earth": 1
+		  },
+          "element": { "Earth" },
+          "upright_text": "[Caution] (This wargeist can't attack.)\nAt the end of each turn, if this wargeist blocked this turn, return it to its owner's hand.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-045_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_046",
+        "face": {
+          "front": {
+          "name": "Foot Soldier of the Oira Clan",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 2,
+          "health": 2,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 1
+		  },
+          "element": { "Metal" },
+          "upright_text": "At the end of your turn, untap this wargeist.",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-046_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_047",
+        "face": {
+          "front": {
+          "name": "Glare Regna",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 5 
+		  },
+          "element": { "Metal" },
+          "upright_text": "Tap all wargeists target daimyo controls.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-047_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_048",
+        "face": {
+          "front": {
+          "name": "Guardian Tengu of Hakugingaku",
+          "type": "Wargeist",
+          "traits": "Tengu",
+		  "power": 3,
+          "health": 4,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 3
+		  },
+          "element": { "Metal" },
+          "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.)\nAt the end of your turn, untap this wargeist.",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-048_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_049",
+        "face": {
+          "front": {
+          "name": "Kourin, Golden Dragon",
+          "type": "Wargeist",
+          "traits": "Dragon/Shogun",
+		  "power": 4,
+          "health": 4,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 6
+		  },
+          "element": { "Metal" },
+          "upright_text": "Whenever this wargeist attacks, draw a card.\nAt the end of your turn, untap this wargeist.",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-049_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_050",
+        "face": {
+          "front": {
+          "name": "Kourin's Divine Armament: Dragon Might Spear and Shield",
+          "type": "Jutsu",
+          "traits": "Enchant: Wargeist",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Metal": 1 
+		  },
+          "element": { "Metal" },
+          "upright_text": "Enchanted wargeist gets +2/+2.",
+          "reversed_text": "{Metal}",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-050_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_051",
+        "face": {
+          "front": {
+          "name": "Needle Woman",
+          "type": "Wargeist",
+          "traits": "Yokai",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Metal": 2,
+			  "Generic": 1
+		  },
+          "element": { "Metal" },
+          "upright_text": "[Enter] Tap target wargeist. That wargeist doesn't untap for as long as you control this wargeist.",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-051_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_052",
+        "face": {
+          "front": {
+          "name": "Purification Miko",
+          "type": "Wargeist",
+          "traits": "Human/Miko",
+		  "power": 1,
+          "health": 2,
+          "cost": { 
+			  "Metal": 2
+		  },
+          "element": { "Metal" },
+          "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.)",
+	      "reverse_name": { "Metal" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-052_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_053",
+        "face": {
+          "front": {
+          "name": "Radiant Defensive Formation",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 1
+		  },
+          "element": { "Metal" },
+          "upright_text": "Target wargeist gets +1/+2, Caution, and Watcher this turn.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-053_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_054",
+        "face": {
+          "front": {
+          "name": "Renbe Shiroda, Chief Strategist",
+          "type": "Wargeist",
+          "traits": "Human/Soldier",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Metal": 1,
+			  "Generic": 4
+		  },
+          "element": { "Metal" },
+          "upright_text": "[Enter] Untap another target wargeist you control.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-054_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_055",
+        "face": {
+          "front": {
+          "name": "Renji Oira, the Heretic",
+          "type": "Wargeist",
+          "traits": "Human/Shogun",
+		  "power": 3,
+          "health": 3,
+          "cost": { 
+			  "Metal": 2,
+			  "Generic": 2
+		  },
+          "element": { "Metal" },
+          "upright_text": "[Enter] Destroy target non-Human and non-Dragon wargeist.\n{Metal}: Switch this wargeist.",
+	      "reversed_name": "Kourin",
+          "reversed_type": "Wargeist",
+          "reversed_traits": "Dragon/Shogun",
+		  "reversed_power": 5,
+          "reversed_health": 5,
+          "reversed_cost": { 
+			  "Metal": 1,
+			  "Generic": 5
+		  },
+          "reversed_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
+          "reversed_element": { "Fire" },
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-055_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_056",
+        "face": {
+          "front": {
+          "name": "Roar of the Corrupt Dragon",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 5 
+		  },
+          "element": { "Earth" },
+          "upright_text": "Destroy target wargeist.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-056_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_057",
+        "face": {
+          "front": {
+          "name": "Sand Thrower",
+          "type": "Wargeist",
+          "traits": "Yokai",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Earth": 2,
+			  "Generic": 1
+		  },
+          "element": { "Metal" },
+          "upright_text": "[Enter] Tap target wargeist.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-057_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_058",
+        "face": {
+          "front": {
+          "name": "Special Forces of the Garyu Clan",
+          "type": "Wargeist",
+          "traits": "Mole/Soldier",
+		  "power": 2,
+          "health": 1,
+          "cost": { 
+			  "Earth": 2
+		  },
+          "element": { "Earth" },
+          "upright_text": "This wargeist can't be blocked.\nAt the end of each turn, if this wargeist attacked this turn, return it to its owner's hand.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-058_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_059",
+        "face": {
+          "front": {
+          "name": "Steel Spinning Kick",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Metal": 1
+		  },
+          "element": { "Metal" },
+          "upright_text": "Tap target wargeist.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-059_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_060",
+        "face": {
+          "front": {
+          "name": "Summon War Spirits",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Earth": 1 
+		  },
+          "element": { "Earth" },
+          "upright_text": "Return target wargeist from your hell to its owner's hand.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-060_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_061",
+        "face": {
+          "front": {
+          "name": "Summoning Miko",
+          "type": "Wargeist",
+          "traits": "Human/Miko",
+		  "power": 2,
+          "health": 2,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 3
+		  },
+          "element": { "Earth" },
+          "upright_text": "[Enter] Return target wargeist from your hell to its owner's hand.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-061_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_062",
+        "face": {
+          "front": {
+          "name": "Taiga Garyu, Lord of Fuzan",
+          "type": "Wargeist",
+          "traits": "Human/Shogun",
+		  "power": 4,
+          "health": 4,
+          "cost": { 
+			  "Earth": 2,
+			  "Generic": 2
+		  },
+          "element": { "Earth" },
+          "upright_text": "At the end of each turn, if this wargeist is untapped and has been under your control since before the beginning of the turn, draw a card.\n{Earth}: Switch this wargeist.",
+          "reversed_text": "Tairei",
+          "reversed_type": "Wargeist",
+          "reversed_traits": "Dragon/Shogun",
+		  "reversed_power": 5,
+          "reversed_health": 5,
+          "reversed_cost": { 
+			  "Earth": 1,
+			  "Generic": 5
+		  },
+          "reversed_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
+          "reversed_element": { "Earth" },
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-062_EN_on.png",
+      }
+    }
+  },
+  {
+      "id": "DS_063",
+        "face": {
+          "front": {
+          "name": "Tairei, Yellow Dragon",
+          "type": "Wargeist",
+          "traits": "Dragon/Shogun",
+		  "power": 5,
+          "health": 5,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 6
+		  },
+          "element": { "Earth" },
+          "upright_text": "Whenever this wargeist attacks, your opponent sacrifices a wargeist of their choice.",
+	      "reverse_name": { "Earth" },
+          "reversed_text": "<Enter> Draw a card.",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-063_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_064",
+        "face": {
+          "front": {
+          "name": "Talisman of the Still Eye",
+          "type": "Jutsu",
+          "traits": "Enchant: Wargeist",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Earth": 1 
+		  },
+          "element": { "Earth" },
+          "upright_text": "Enchanted wargeist gets Caution and Watcher.",
+          "reversed_text": "",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-064_EN_on.png",
+      }
+    }
+  },
+  {
+        "id": "DS_065",
+        "face": {
+          "front": {
+          "name": "Yomi Binding Curse",
+          "type": "Jutsu",
+		  "power": null,
+          "health": null,
+          "cost": { 
+			  "Earth": 1,
+			  "Generic": 3 
+		  },
+          "element": { "Earth" },
+          "upright_text": "Your opponent sacrifices an untapped wargeist of their choice.",
+          "reversed_text": "Kyu-kyu-nyo-ritsu-ryo",
+          "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-065_EN_on.png",
+    }
+  }
 }
+]
