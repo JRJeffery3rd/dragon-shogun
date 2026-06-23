@@ -1,11 +1,36 @@
 {
-  "gameName": "Dragon Shogun",
-  "element_assets": {
-    "Fire": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_fire.webp",
-    "Water": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_water.webp",
-    "Wood": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_wood.webp",
-    "Metal": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_metal.webp",
-    "Earth": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_earth.webp"
+  "name": "Dragon Shogun",
+  "menuBackgroundImage": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/logo.webp?raw=true",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/playmats/Playmat-A.png?raw=true"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/dragon_shogun_cards.json",
+    "cardBack": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Ds-backside.png?raw=true"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "Type",
+      "Element",
+      "Cost"
+    ],
+    "formats": [
+      {
+        "title": "Blitz Shield Mode",
+        "gameplay": "Battlefield",
+        "customCategories": []
+      },
+      {
+        "title": "Strategy Mode",
+        "gameplay": "Battlefield",
+        "customCategories": []
+      }
+    ]
   },
   "formats": [
     {
@@ -15,13 +40,6 @@
         "minSize": 40,
         "maxSize": 40,
         "maxCopiesSameName": 99,
-        "requiredZones": [
-          "Deck",
-          "Hand",
-          "Battlefield",
-          "Gates",
-          "Hell"
-        ],
         "startingGates": 5
       }
     },
@@ -32,13 +50,6 @@
         "minSize": 50,
         "maxSize": 50,
         "maxCopiesSameName": 4,
-        "requiredZones": [
-          "Deck",
-          "Hand",
-          "Battlefield",
-          "Gates",
-          "Hell"
-        ],
         "startingGates": 5,
         "customRestrictions": [
           {
@@ -50,31 +61,107 @@
       }
     }
   ],
-  "tableZones": [
-    {
-      "name": "Deck",
-      "type": "deck",
-      "faceDown": true
-    },
-    {
-      "name": "Hand",
-      "type": "hand",
-      "faceDown": true
-    },
-    {
-      "name": "Battlefield",
-      "type": "board",
-      "faceDown": false
-    },
-    {
-      "name": "Gates",
-      "type": "horizontal_row",
-      "faceDown": true,
-      "maxInitial": 5
-    },
-    {
-      "name": "Hell",
-      "type": "graveyard",
-      "faceDown": false
+  "gameplay": {
+    "Battlefield": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": 7,
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Battlefield"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "section": "Battlefield",
+              "style": false
+            },
+            {
+              "section": "Hell",
+              "style": false
+            },
+            {
+              "section": "Gates",
+              "style": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {
+          "Battlefield": "Battlefield"
+        },
+        "autoPlayFromStack": {
+          "Hell": "Hell"
+        },
+        "sectionsDict": {
+          "Battlefield": {
+            "title": "Battlefield",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Ressources",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Hell": {
+            "title": "Hell",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Gates": {
+            "title": "Gates",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
     }
-  ]
+  }
+}
