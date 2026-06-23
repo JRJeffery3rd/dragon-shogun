@@ -1,11 +1,11 @@
 {
   "assets": {
     "element_icons": {
-      "Wood": "https://https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_wood.webp",
-      "Fire": "https://https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_fire.webp",
-      "Earth": "https://https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_earth.webp",
-      "Metal": "https://https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_metal.webp",
-      "Water": "https://https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_water.webp"
+      "Wood": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_wood.webp",
+      "Fire": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_fire.webp",
+      "Earth": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_earth.webp",
+      "Metal": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_metal.webp",
+      "Water": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/Icons/icn_water.webp"
     }
   },
   "cards": [
@@ -26,7 +26,7 @@
         "upright_text": "Untap target your wargeist.",
         "reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-		"image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-001_EN_on.png"
+		"image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-001_EN_on.png"
       }
     }
   },
@@ -48,7 +48,7 @@
         "upright_text": "",
         "reverse_name": "",
 		"reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-002_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-002_EN_on.png"
       }
     }
   },
@@ -69,7 +69,7 @@
         "upright_text": "Enchanted wargeist gets +1/+0 and Swift.",
 		"reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-003_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-003_EN_on.png"
       }
     }
   },
@@ -91,7 +91,7 @@
         "upright_text": "[Berserker] (This wargeist attacks each turn if able.)",
 		"reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-004_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-004_EN_on.png"
       }
     }
   },
@@ -113,7 +113,7 @@
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
 
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-005_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-005_EN_on.png"
       }
     }
   },
@@ -134,7 +134,7 @@
         "upright_text": "Deal 3 damage to target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-006_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-006_EN_on.png"
       }
     }
   },
@@ -156,7 +156,7 @@
         "upright_text": "[Spy] (This wargeist can't be blocked except by wargeists with Spy or Watcher.)",
 		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-007_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-007_EN_on.png"
       }
     }
   },
@@ -177,7 +177,7 @@
         "upright_text": "Draw two cards.",
 		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-008_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-008_EN_on.png"
       }
     }
   },
@@ -199,7 +199,7 @@
         "upright_text": "[Enter] Each daimyo sacrifices a wargeist of their choice.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-009_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-009_EN_on.png"
       }
     }
   },
@@ -220,7 +220,7 @@
         "element": ["Fire"],
         "upright_text": "[Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",        "reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-010_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-010_EN_on.png"
       }
     }
   },
@@ -242,7 +242,7 @@
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
 
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-011_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-011_EN_on.png"
       }
     }
   },
@@ -264,7 +264,7 @@
         "upright_text": "",
 		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-012_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-012_EN_on.png"
       }
     }
   },
@@ -285,7 +285,7 @@
         "upright_text": "[Reckless] (This wargeist can't block.)",
         "reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-013_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-013_EN_on.png"
       }
     }
   },
@@ -306,7 +306,7 @@
         "upright_text": "Switch target wargeist.",        
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-014_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-014_EN_on.png"
       }
     }
   },
@@ -327,7 +327,7 @@
         "upright_text": "[Caution] (This wargeist can't attack.)  [Watcher] (This wargeist can block wargeists with Spy.)",
         "reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-015_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-015_EN_on.png"
       }
     }
   },
@@ -349,7 +349,7 @@
         "upright_text": "[Enter] Destroy target jutsu.",
 		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-016_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-016_EN_on.png"
       }
     }
   },
@@ -370,7 +370,7 @@
         "upright_text": "If this wargeist is attacking, it gets +3/+0.",
 		"reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-017_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-017_EN_on.png"
       }
     }
   },
@@ -402,7 +402,7 @@
         },
         "reverse_text": "[Gate Break 2], [Spy]",
         "reversed_element": ["Water"],
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-018_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-018_EN_on.png"
       }
     }
   },
@@ -424,7 +424,7 @@
         "upright_text": "[Gate Break 2] (This Wargeist destroys two gates.) [Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",
 		"reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-019_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-019_EN_on.png"
       }
     }
   },
@@ -456,7 +456,7 @@
         },
         "reverse_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
         "reversed_element": ["Wood"],
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-020_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-020_EN_on.png"
       }
     }
   },
@@ -477,7 +477,7 @@
         "upright_text": "Untap target wargeist. It gets +1/+1 this turn.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-021_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-021_EN_on.png"
       }
     }
   },
@@ -499,7 +499,7 @@
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
 
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-022_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-022_EN_on.png"
       }
     }
   },
@@ -521,7 +521,7 @@
         "upright_text": "Whenever this wargeist destroys a gate, draw a card.",
 		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-023_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-023_EN_on.png"
       }
     }
   },
@@ -543,7 +543,7 @@
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
 
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-024_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-024_EN_on.png"
       }
     }
   },
@@ -563,7 +563,7 @@
         "element": ["Wood"],
         "upright_text": "[Spy] (This wargeist can't be blocked except by wargeists with Spy or Watcher.)",
         "reverse_text": "",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-025_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-025_EN_on.png"
       }
     }
   },
@@ -585,7 +585,7 @@
         "upright_text": "[Agony] Draw a card. Then, discard a card.",
 		"reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-026_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-026_EN_on.png"
       }
     }
   },
@@ -606,7 +606,7 @@
         "upright_text": "[Caution] (This wargeist can't attack.) [Agony] Draw a card.",
 		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-027_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-027_EN_on.png"
       }
     }
   },
@@ -626,7 +626,7 @@
         "upright_text": "Return target wargeist to its owner's hand.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-028_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-028_EN_on.png"
       }
     }
   },
@@ -648,7 +648,7 @@
         "upright_text": "[Blessing] (This wargeist can't be the target of jutsus or abilities.)",
 		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-029_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-029_EN_on.png"
       }
     }
   },
@@ -668,7 +668,7 @@
         "element": ["Water"],
         "upright_text": "[Conquer: {Fire}] (This wargeist can't be blocked, targeted, or dealt damage by {Fire} cards.)",       "reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-030_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-030_EN_on.png"
       }
     }
   },
@@ -690,7 +690,7 @@
         "upright_text": "[Enter] Return another target wargeist to its owner's hand.",
 		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-031_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-031_EN_on.png"
       }
     }
   },
@@ -712,7 +712,7 @@
         "upright_text": "",
 		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-032_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-032_EN_on.png"
       }
     }
   },
@@ -732,7 +732,7 @@
         "element": ["Fire"],
         "upright_text": "[Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",        "reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-033_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-033_EN_on.png"
       }
     }
   },
@@ -764,7 +764,7 @@
         },
         "reverse_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
         "reversed_element": ["Fire"],
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-034_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-034_EN_on.png"
       }
     }
   },
@@ -786,7 +786,7 @@
         "upright_text": "",
 		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-035_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-035_EN_on.png"
       }
     }
   },
@@ -808,7 +808,7 @@
         "upright_text": "Whenever this wargeist destroys a gate, you may return an elementium you control to its owner's hand.",   
 		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-036_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-036_EN_on.png"
       }
     }
   },
@@ -830,7 +830,7 @@
         "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.)",
 		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-037_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-037_EN_on.png"
       }
     }
   },
@@ -850,7 +850,7 @@
         "element": ["Water"],
         "upright_text": "[Enter] Tap enchanted wargeist.  Enchanted wargeist doesn't untap during the untap step.",       "reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-038_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-038_EN_on.png"
       }
     }
   },
@@ -871,7 +871,7 @@
         "element": ["Water"],
         "upright_text": "Whenever this wargeist attacks, choose target jutsu that has kyu-kyu-nyo-ritsu-ryo and doesn’t have a classification from your hell. You may cast it this turn. If that jutsu would be put into your hell, exile it instead.",   "reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-039_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-039_EN_on.png"
       }
     }
   },
@@ -892,7 +892,7 @@
         "upright_text": "",
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-040_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-040_EN_on.png"
       }
     }
   },
@@ -914,7 +914,7 @@
         "upright_text": "If this wargeist is attacking, it gets +2/-1.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-041_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-041_EN_on.png"
       }
     }
   },
@@ -936,7 +936,7 @@
         "upright_text": "Whenever this wargeist deals ikusa damage to another wargeist, destroy that wargeist at the end of this turn.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-042_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-042_EN_on.png"
       }
     }
   },
@@ -958,7 +958,7 @@
         "upright_text": "At the end of each turn, if this wargeist Ikusa'd with another wargeist this turn, destroy this wargeist.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-043_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-043_EN_on.png"
       }
     }
   },
@@ -980,7 +980,7 @@
         "upright_text": "",
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-044_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-044_EN_on.png"
       }
     }
   },
@@ -1001,7 +1001,7 @@
         "upright_text": "[Caution] (This wargeist can't attack.) At the end of each turn, if this wargeist blocked this turn, return it to its owner's hand.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-045_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-045_EN_on.png"
       }
     }
   },
@@ -1023,7 +1023,7 @@
         "upright_text": "At the end of your turn, untap this wargeist.",
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-046_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-046_EN_on.png"
       }
     }
   },
@@ -1044,7 +1044,7 @@
         "upright_text": "Tap all wargeists target daimyo controls.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-047_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-047_EN_on.png"
       }
     }
   },
@@ -1066,7 +1066,7 @@
         "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.) At the end of your turn, untap this wargeist.",   
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-048_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-048_EN_on.png"
       }
     }
   },
@@ -1088,7 +1088,7 @@
         "upright_text": "Whenever this wargeist attacks, draw a card. At the end of your turn, untap this wargeist.",
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-049_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-049_EN_on.png"
       }
     }
   },
@@ -1109,7 +1109,7 @@
         "upright_text": "Enchanted wargeist gets +2/+2.",
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-050_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-050_EN_on.png"
       }
     }
   },
@@ -1130,7 +1130,7 @@
         "element": ["Metal"],
         "upright_text": "[Enter] Tap target wargeist. That wargeist doesn't untap for as long as you control this wargeist.",     "reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-051_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-051_EN_on.png"
       }
     }
   },
@@ -1151,7 +1151,7 @@
         "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.)",
 		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-052_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-052_EN_on.png"
       }
     }
   },
@@ -1173,7 +1173,7 @@
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
 
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-053_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-053_EN_on.png"
       }
     }
   },
@@ -1196,7 +1196,7 @@
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
 
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-054_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-054_EN_on.png"
       }
     }
   },
@@ -1228,7 +1228,7 @@
         },
         "reverse_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
         "reversed_element": ["Metal"],
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-055_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-055_EN_on.png"
       }
     }
   },
@@ -1249,7 +1249,7 @@
         "upright_text": "Destroy target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-056_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-056_EN_on.png"
       }
     }
   },
@@ -1271,7 +1271,7 @@
         "upright_text": "[Enter] Tap target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-057_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-057_EN_on.png"
       }
     }
   },
@@ -1292,7 +1292,7 @@
         "upright_text": "This wargeist can't be blocked. At the end of each turn, if this wargeist attacked this turn, return it to its owner's hand.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-058_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-058_EN_on.png"
       }
     }
   },
@@ -1312,7 +1312,7 @@
         "upright_text": "Tap target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-059_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-059_EN_on.png"
       }
     }
   },
@@ -1332,7 +1332,7 @@
         "upright_text": "Return target wargeist from your hell to its owner's hand.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-060_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-060_EN_on.png"
       }
     }
   },
@@ -1354,7 +1354,7 @@
         "upright_text": "[Enter] Return target wargeist from your hell to its owner's hand.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-061_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-061_EN_on.png"
       }
     }
   },
@@ -1386,7 +1386,7 @@
         },
         "reverse_text": "[Gate Break 2] (This Wargeist destroys two gates.)",
         "reversed_element": ["Earth"],
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-062_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-062_EN_on.png"
       }
     }
   },
@@ -1407,7 +1407,7 @@
         "element": ["Earth"],
         "upright_text": "Whenever this wargeist attacks, your opponent sacrifices a wargeist of their choice.",       "reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-063_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-063_EN_on.png"
       }
     }
   },
@@ -1428,7 +1428,7 @@
         "upright_text": "Enchanted wargeist gets Caution and Watcher.",
 		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-064_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-064_EN_on.png"
       }
     }
   },
@@ -1448,7 +1448,7 @@
         "element": ["Earth"],
         "upright_text": "Your opponent sacrifices an untapped wargeist of their choice.",
 		"reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-        "image_url": "https://https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-065_EN_on.png"
+        "image_url": "https://raw.githubusercontent.com/JRJeffery3rd/dragon-shogun/main/cards/DSa-065_EN_on.png"
       }
     }
   }
