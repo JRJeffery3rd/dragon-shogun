@@ -6,7 +6,7 @@
     "dataUrl": "https://jrjeffery3rd.github.io/dragon-shogun/dragon_shogun_cards.json",
     "cardBack": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Ds-backside.png?raw=true"
   },
-  ]
+  {
   "menuBackgroundImage": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/logo.webp?raw=true",
   "defaultRessources": {
     "backgrounds": [
