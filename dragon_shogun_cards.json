@@ -1,3 +1,13 @@
+{
+  "assets": {
+    "element_icons": {
+      "Wood": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Icons/icn_wood.webp?raw=true",
+      "Fire": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Icons/icn_fire.webp?raw=true",
+      "Earth": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Icons/icn_earth.webp?raw=true",
+      "Metal": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Icons/icn_metal.webp?raw=true",
+      "Water": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Icons/icn_water.webp?raw=true"
+    }
+  },
 [
   {
     "id": "DS_001",
