@@ -8,8 +8,8 @@
       "Water": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/Icons/icn_water.webp?raw=true"
     }
   },
-[
-  {
+  "cards": [
+    {
     "id": "DS_001",
     "face": {
       "front": {
@@ -148,7 +148,8 @@
           "Generic": 3
         },
         "element": ["Water"],
-        "upright_text": "[Spy] (This wargeist can't be blocked except by wargeists with Spy or Watcher.)",        "reverse_name": ["Water"],
+        "upright_text": "[Spy] (This wargeist can't be blocked except by wargeists with Spy or Watcher.)",
+		"reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-007_EN_on.png?raw=true"
       }
@@ -294,6 +295,7 @@
         "upright_text": "Switch target wargeist.",        
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
+
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-014_EN_on.png?raw=true"
       }
     }
@@ -449,10 +451,9 @@
           "Generic": 2
         },
         "element": ["Fire"],
-        "upright_text": "Untap target wargeist. It gets +1/+1 this turn.", 
+        "upright_text": "Untap target wargeist. It gets +1/+1 this turn.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-021_EN_on.png?raw=true"
       }
     }
@@ -766,7 +767,8 @@
           "Generic": 6
         },
         "element": ["Wood"],
-        "upright_text": "Whenever this wargeist destroys a gate, you may return an elementium you control to its owner's hand.",        "reverse_name": ["Wood"],
+        "upright_text": "Whenever this wargeist destroys a gate, you may return an elementium you control to its owner's hand.",   
+		"reverse_name": ["Wood"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-036_EN_on.png?raw=true"
       }
@@ -887,7 +889,8 @@
           "Generic": 4
         },
         "element": ["Earth"],
-        "upright_text": "Whenever this wargeist deals ikusa damage to another wargeist, destroy that wargeist at the end of this turn.",        "reverse_name": ["Earth"],
+        "upright_text": "Whenever this wargeist deals ikusa damage to another wargeist, destroy that wargeist at the end of this turn.",
+		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-042_EN_on.png?raw=true"
       }
@@ -907,7 +910,8 @@
           "Generic": 2
         },
         "element": ["Earth"],
-        "upright_text": "At the end of each turn, if this wargeist Ikusa'd with another wargeist this turn, destroy this wargeist.",        "reverse_name": ["Earth"],
+        "upright_text": "At the end of each turn, if this wargeist Ikusa'd with another wargeist this turn, destroy this wargeist.",
+		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-043_EN_on.png?raw=true"
       }
@@ -947,7 +951,8 @@
           "Earth": 1
         },
         "element": ["Earth"],
-        "upright_text": "[Caution] (This wargeist can't attack.) At the end of each turn, if this wargeist blocked this turn, return it to its owner's hand.",        "reverse_name": ["Earth"],
+        "upright_text": "[Caution] (This wargeist can't attack.) At the end of each turn, if this wargeist blocked this turn, return it to its owner's hand.",
+		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-045_EN_on.png?raw=true"
       }
@@ -990,6 +995,7 @@
         "upright_text": "Tap all wargeists target daimyo controls.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
+
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-047_EN_on.png?raw=true"
       }
     }
@@ -1008,7 +1014,8 @@
           "Generic": 3
         },
         "element": ["Metal"],
-        "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.) At the end of your turn, untap this wargeist.",        "reverse_name": ["Metal"],
+        "upright_text": "[Watcher] (This wargeist can block wargeists with Spy.) At the end of your turn, untap this wargeist.",   
+		"reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-048_EN_on.png?raw=true"
       }
@@ -1223,7 +1230,8 @@
           "Earth": 2
         },
         "element": ["Earth"],
-        "upright_text": "This wargeist can't be blocked. At the end of each turn, if this wargeist attacked this turn, return it to its owner's hand.",        "reverse_name": ["Earth"],
+        "upright_text": "This wargeist can't be blocked. At the end of each turn, if this wargeist attacked this turn, return it to its owner's hand.",
+		"reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-058_EN_on.png?raw=true"
       }
