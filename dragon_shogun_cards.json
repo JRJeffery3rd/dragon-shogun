@@ -17,7 +17,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Wood": 1,
           "Generic": 2
         },
@@ -38,7 +39,8 @@
         "traits": "Familiar",
         "power": 2,
         "health": 2,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Water": 1,
           "Generic": 2
         },
@@ -59,7 +61,8 @@
         "traits": "Enchant: Wargeist",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Fire": 1
         },
         "element": ["Fire"],
@@ -79,7 +82,8 @@
         "traits": "Dragon",
         "power": 5,
         "health": 5,
-        "cost": {
+        "cost": 5,
+          "cost_details": {
           "Fire": 1,
           "Generic": 4
         },
@@ -99,7 +103,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Water": 1,
           "Generic": 3
         },
@@ -120,7 +125,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Fire": 1,
           "Generic": 2
         },
@@ -128,7 +134,6 @@
         "upright_text": "Deal 3 damage to target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-006_EN_on.png?raw=true"
       }
     }
@@ -141,9 +146,9 @@
         "type": "Wargeist",
         "traits": "Familiar",
         "power": 2,
-
         "health": 2,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Water": 1,
           "Generic": 3
         },
@@ -163,7 +168,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Water": 1,
           "Generic": 3
         },
@@ -184,7 +190,8 @@
         "traits": "Human/Soldier",
         "power": 4,
         "health": 2,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Fire": 1,
           "Generic": 3
         },
@@ -192,7 +199,6 @@
         "upright_text": "[Enter] Each daimyo sacrifices a wargeist of their choice.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-009_EN_on.png?raw=true"
       }
     }
@@ -206,7 +212,8 @@
         "traits": "Yokai",
         "power": 4,
         "health": 2,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Fire": 2,
           "Generic": 1
         },
@@ -225,7 +232,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 5,
+          "cost_details": {
           "Fire": 1,
           "Generic": 4
         },
@@ -247,7 +255,8 @@
         "traits": "Rabbitfolk/Soldier",
         "power": 3,
         "health": 2,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Wood": 1,
           "Generic": 1
         },
@@ -268,7 +277,8 @@
         "traits": "Lizard/Soldier",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Fire": 1
         },
         "element": ["Fire"],
@@ -287,7 +297,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Wood": 1,
           "Generic": 3
         },
@@ -295,7 +306,6 @@
         "upright_text": "Switch target wargeist.",        
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-014_EN_on.png?raw=true"
       }
     }
@@ -309,12 +319,14 @@
         "traits": "Human/Ninjya",
         "power": 2,
         "health": 3,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Wood": 1
         },
         "element": ["Wood"],
         "upright_text": "[Caution] (This wargeist can't attack.)  [Watcher] (This wargeist can block wargeists with Spy.)",
-        "reverse_text": "Wood",
+        "reverse_name": ["Wood"],
+        "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-015_EN_on.png?raw=true"
       }
     }
@@ -328,7 +340,8 @@
         "traits": "Tengu",
         "power": 4,
         "health": 3,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Wood": 1,
           "Generic": 3
         },
@@ -349,7 +362,10 @@
         "traits": "Human/Soldier",
         "power": 2,
         "health": 3,
-        "cost": { "Fire": 1 },
+        "cost": 1,
+          "cost_details": {
+		  "Fire": 1
+        },
         "element": ["Fire"],
         "upright_text": "If this wargeist is attacking, it gets +3/+0.",
 		"reverse_name": ["Fire"],
@@ -367,7 +383,8 @@
         "traits": "Human/Jujutsushi",
         "power": 2,
         "health": 3,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Water": 2,
           "Generic": 2
         },
@@ -378,7 +395,8 @@
         "reversed_traits": "Dragon/Jujutsushi",
         "reversed_power": 4,
         "reversed_health": 4,
-        "reversed_cost": {
+        "reversed_cost": 6,
+          "reversed_cost_details": {
           "Water": 1,
           "Generic": 5
         },
@@ -397,12 +415,14 @@
         "traits": "Dragon/Shogun",
         "power": 6,
         "health": 5,
-        "cost": {
+        "cost": 7,
+          "cost_details": {
           "Fire": 1,
           "Generic": 6
         },
         "element": ["Fire"],
-        "upright_text": "[Gate Break 2] (This Wargeist destroys two gates.) [Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",        "reverse_name": ["Fire"],
+        "upright_text": "[Gate Break 2] (This Wargeist destroys two gates.) [Swift] (This wargeist can attack and [Tap] as soon as it comes under your control.)",
+		"reverse_name": ["Fire"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-019_EN_on.png?raw=true"
       }
@@ -417,7 +437,8 @@
         "traits": "Human/Miko",
         "power": 2,
         "health": 3,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Wood": 2,
           "Generic": 2
         },
@@ -428,7 +449,8 @@
         "reversed_traits": "Dragon/Miko",
         "reversed_power": 6,
         "reversed_health": 6,
-        "reversed_cost": {
+        "reversed_cost": 5,
+          "reversed_cost_details": {
           "Wood": 1,
           "Generic": 4
         },
@@ -446,7 +468,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+         "cost": 3,
+        "cost_details": {
           "Fire": 1,
           "Generic": 2
         },
@@ -467,7 +490,8 @@
         "traits": "Enchant: Wargeist",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Wood": 1
         },
         "element": ["Wood"],
@@ -488,7 +512,8 @@
         "traits": "Familiar",
         "power": 2,
         "health": 6,
-        "cost": {
+        "cost": 5,
+          "cost_details": {
           "Water": 1,
           "Generic": 4
         },
@@ -508,7 +533,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Wood": 1,
           "Generic": 2
         },
@@ -530,7 +556,8 @@
         "traits": "Human/Ninjya",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Wood": 2
         },
         "element": ["Wood"],
@@ -549,7 +576,8 @@
         "traits": "Yokai",
         "power": 3,
         "health": 1,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Fire": 1,
           "Generic": 1
         },
@@ -570,7 +598,8 @@
         "traits": "Familiar/Soldier",
         "power": 0,
         "health": 2,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Water": 1
         },
         "element": ["Water"],
@@ -589,14 +618,14 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Water": 1
         },
         "element": ["Water"],
         "upright_text": "Return target wargeist to its owner's hand.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-028_EN_on.png?raw=true"
       }
     }
@@ -610,7 +639,8 @@
         "traits": "Tengu",
         "power": 3,
         "health": 4,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Wood": 2,
           "Generic": 1
         },
@@ -631,11 +661,12 @@
         "traits": "Kappa/Monk",
         "power": 2,
         "health": 2,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Water": 2
         },
         "element": ["Water"],
-        "upright_text": "[Conquer: {Fire}] (This wargeist can't be blocked, targeted, or dealt damage by {Fire} cards.)",        "reverse_name": ["Water"],
+        "upright_text": "[Conquer: {Fire}] (This wargeist can't be blocked, targeted, or dealt damage by {Fire} cards.)",       "reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-030_EN_on.png?raw=true"
       }
@@ -650,7 +681,8 @@
         "traits": "Kappa/Monk",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Water": 2,
           "Generic": 1
         },
@@ -671,7 +703,8 @@
         "traits": "Turtle",
         "power": 1,
         "health": 4,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Water": 1,
           "Generic": 1
         },
@@ -692,7 +725,8 @@
         "traits": "Human/Soldier",
         "power": 2,
         "health": 2,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Fire": 2
         },
         "element": ["Fire"],
@@ -711,7 +745,8 @@
         "traits": "Human/Shogun",
         "power": 3,
         "health": 2,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Fire": 2,
           "Generic": 2
         },
@@ -722,7 +757,8 @@
         "reversed_traits": "Dragon/Shogun",
         "reversed_power": 6,
         "reversed_health": 5,
-        "reversed_cost": {
+        "reversed_cost": 6,
+          "reversed_cost_details": {
           "Fire": 1,
           "Generic": 5
         },
@@ -741,7 +777,8 @@
         "traits": "Human",
         "power": 5,
         "health": 5,
-        "cost": {
+        "cost": 5,
+          "cost_details": {
           "Wood": 1,
           "Generic": 4
         },
@@ -762,7 +799,8 @@
         "traits": "Dragon/Miko",
         "power": 6,
         "health": 6,
-        "cost": {
+        "cost": 7,
+          "cost_details": {
           "Wood": 1,
           "Generic": 6
         },
@@ -783,7 +821,8 @@
         "traits": "Human/Soldier",
         "power": 4,
         "health": 2,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Wood": 1,
           "Generic": 2
         },
@@ -804,11 +843,12 @@
         "traits": "Enchant: Wargeist",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Water": 1
         },
         "element": ["Water"],
-        "upright_text": "[Enter] Tap enchanted wargeist.  Enchanted wargeist doesn't untap during the untap step.",        "reverse_name": ["Water"],
+        "upright_text": "[Enter] Tap enchanted wargeist.  Enchanted wargeist doesn't untap during the untap step.",       "reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-038_EN_on.png?raw=true"
       }
@@ -823,12 +863,13 @@
         "traits": "Dragon/Jujutsushi",
         "power": 4,
         "health": 2,
-        "cost": {
+        "cost": 7,
+          "cost_details": {
           "Wood": 1,
           "Generic": 6
         },
         "element": ["Water"],
-        "upright_text": "Whenever this wargeist attacks, choose target jutsu that has kyu-kyu-nyo-ritsu-ryo and doesn’t have a classification from your hell. You may cast it this turn. If that jutsu would be put into your hell, exile it instead.",        "reverse_name": ["Water"],
+        "upright_text": "Whenever this wargeist attacks, choose target jutsu that has kyu-kyu-nyo-ritsu-ryo and doesn’t have a classification from your hell. You may cast it this turn. If that jutsu would be put into your hell, exile it instead.",   "reverse_name": ["Water"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-039_EN_on.png?raw=true"
       }
@@ -843,7 +884,8 @@
         "traits": "Tiger/Monk",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Metal": 1
         },
         "element": ["Metal"],
@@ -863,7 +905,8 @@
         "traits": "Human/Soldier",
         "power": 1,
         "health": 3,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Earth": 1,
           "Generic": 1
         },
@@ -884,7 +927,8 @@
         "traits": "Corpse Demon/Dragon",
         "power": 3,
         "health": 5,
-        "cost": {
+        "cost": 5,
+          "cost_details": {
           "Earth": 1,
           "Generic": 4
         },
@@ -905,7 +949,8 @@
         "traits": "Corpse Demon/Soldier",
         "power": 4,
         "health": 4,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Earth": 1,
           "Generic": 2
         },
@@ -926,7 +971,8 @@
         "traits": "Human/Soldier",
         "power": 3,
         "health": 3,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Metal": 1,
           "Generic": 2
         },
@@ -947,7 +993,8 @@
         "traits": "Mole/Soldier",
         "power": 0,
         "health": 3,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Earth": 1
         },
         "element": ["Earth"],
@@ -967,7 +1014,8 @@
         "traits": "Human/Soldier",
         "power": 2,
         "health": 2,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Metal": 1,
           "Generic": 1
         },
@@ -987,7 +1035,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 6,
+          "cost_details": {
           "Metal": 1,
           "Generic": 5
         },
@@ -995,7 +1044,6 @@
         "upright_text": "Tap all wargeists target daimyo controls.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-047_EN_on.png?raw=true"
       }
     }
@@ -1009,7 +1057,8 @@
         "traits": "Tengu",
         "power": 3,
         "health": 4,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Metal": 1,
           "Generic": 3
         },
@@ -1030,7 +1079,8 @@
         "traits": "Dragon/Shogun",
         "power": 4,
         "health": 4,
-        "cost": {
+        "cost": 7,
+          "cost_details": {
           "Metal": 1,
           "Generic": 6
         },
@@ -1051,7 +1101,8 @@
         "traits": "Enchant: Wargeist",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Metal": 1
         },
         "element": ["Metal"],
@@ -1071,12 +1122,13 @@
         "traits": "Yokai",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Metal": 2,
           "Generic": 1
         },
         "element": ["Metal"],
-        "upright_text": "[Enter] Tap target wargeist. That wargeist doesn't untap for as long as you control this wargeist.",        "reverse_name": ["Metal"],
+        "upright_text": "[Enter] Tap target wargeist. That wargeist doesn't untap for as long as you control this wargeist.",     "reverse_name": ["Metal"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-051_EN_on.png?raw=true"
       }
@@ -1091,7 +1143,8 @@
         "traits": "Human/Miko",
         "power": 1,
         "health": 2,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Metal": 2
         },
         "element": ["Metal"],
@@ -1110,7 +1163,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Metal": 1,
           "Generic": 1
         },
@@ -1132,7 +1186,8 @@
         "traits": "Human/Soldier",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 5,
+          "cost_details": {
           "Metal": 1,
           "Generic": 4
         },
@@ -1154,7 +1209,8 @@
         "traits": "Human/Shogun",
         "power": 3,
         "health": 3,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Metal": 2,
           "Generic": 2
         },
@@ -1165,7 +1221,8 @@
         "reversed_traits": "Dragon/Shogun",
         "reversed_power": 5,
         "reversed_health": 5,
-        "reversed_cost": {
+        "reversed_cost": 6,
+          "reversed_cost_details": {
           "Metal": 1,
           "Generic": 5
         },
@@ -1183,7 +1240,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 6,
+          "cost_details": {
           "Earth": 1,
           "Generic": 5
         },
@@ -1191,7 +1249,6 @@
         "upright_text": "Destroy target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-056_EN_on.png?raw=true"
       }
     }
@@ -1205,7 +1262,8 @@
         "traits": "Yokai",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Earth": 2,
           "Generic": 1
         },
@@ -1226,7 +1284,8 @@
         "traits": "Mole/Soldier",
         "power": 2,
         "health": 1,
-        "cost": {
+        "cost": 2,
+          "cost_details": {
           "Earth": 2
         },
         "element": ["Earth"],
@@ -1245,14 +1304,14 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Metal": 1
         },
         "element": ["Metal"],
         "upright_text": "Tap target wargeist.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-059_EN_on.png?raw=true"
       }
     }
@@ -1265,14 +1324,14 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Earth": 1
         },
         "element": ["Earth"],
         "upright_text": "Return target wargeist from your hell to its owner's hand.",
 		"reverse_name": "",
         "reverse_text": "Kyu-kyu-nyo-ritsu-ryo",
-
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-060_EN_on.png?raw=true"
       }
     }
@@ -1286,7 +1345,8 @@
         "traits": "Human/Miko",
         "power": 2,
         "health": 2,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Earth": 1,
           "Generic": 3
         },
@@ -1307,7 +1367,8 @@
         "traits": "Human/Shogun",
         "power": 4,
         "health": 4,
-        "cost": {
+        "cost": 4,
+          "cost_details": {
           "Earth": 2,
           "Generic": 2
         },
@@ -1318,7 +1379,8 @@
         "reversed_traits": "Dragon/Shogun",
         "reversed_power": 5,
         "reversed_health": 5,
-        "reversed_cost": {
+        "reversed_cost": 6,
+          "reversed_cost_details": {
           "Earth": 1,
           "Generic": 5
         },
@@ -1337,12 +1399,13 @@
         "traits": "Dragon/Shogun",
         "power": 5,
         "health": 5,
-        "cost": {
+        "cost": 7,
+          "cost_details": {
           "Earth": 1,
           "Generic": 6
         },
         "element": ["Earth"],
-        "upright_text": "Whenever this wargeist attacks, your opponent sacrifices a wargeist of their choice.",        "reverse_name": ["Earth"],
+        "upright_text": "Whenever this wargeist attacks, your opponent sacrifices a wargeist of their choice.",       "reverse_name": ["Earth"],
         "reverse_text": "<Enter> Draw a card.",
         "image_url": "https://github.com/JRJeffery3rd/dragon-shogun/blob/main/cards/DSa-063_EN_on.png?raw=true"
       }
@@ -1357,7 +1420,8 @@
         "traits": "Enchant: Wargeist",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 1,
+          "cost_details": {
           "Earth": 1
         },
         "element": ["Earth"],
@@ -1376,7 +1440,8 @@
         "type": "Jutsu",
         "power": null,
         "health": null,
-        "cost": {
+        "cost": 3,
+          "cost_details": {
           "Earth": 1,
           "Generic": 3
         },
@@ -1387,4 +1452,5 @@
       }
     }
   }
-]
+ ]
+}
